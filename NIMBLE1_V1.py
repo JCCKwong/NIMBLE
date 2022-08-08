@@ -73,10 +73,10 @@ def page_nimble1():
     sex = col1.radio("Sex", options=('Male', 'Female'), horizontal=True, index=0)
     stage = col1.radio("Tumour Stage", options=('Ta (Non-invasive papillary carcinoma)',
                                                 'T1 (Tumour infiltrating the lamina propria)'), horizontal=True,
-                       index=1)
+                       index=0)
     cis = col1.radio("Concomittant CIS", options=('No', 'Yes'), horizontal=True, index=1)
     grade = col1.radio("Tumour Grade (WHO 1973)", options=('Grade 1', 'Grade 2', 'Grade 3'), horizontal=True,
-                       index=2)
+                       index=0)
     number = col1.radio("Number of Tumours", options=('Single tumour', 'Multiple tumours'), horizontal=True,
                         index=0)
     size = col1.radio("Tumour Size", options=('Less than 3 cm', '3 cm or greater'), horizontal=True, index=1)
